@@ -5,13 +5,15 @@ import fs from 'node:fs/promises';
 const generateContacts = async (number) => {
     try {
         const data = await fs.readFile(PATH_DB, 'utf-8');
-        const dbData = JSON.parse(data);
+        const contacts = JSON.parse(data);
         let newContacts = [];
         for (let i = 0; i < number; i += 1) {
             newContacts.push(createFakeContact());
-        }
-        // dbData.contacts = dbData.contacts.concat(newContacts);
-        await fs.writeFile(PATH_DB, JSON.stringify(dbData, null, 2), 'utf-8');
+        };
+        const updateContacts = contacts.concat(newContacts);
+
+        await fs.writeFile(PATH_DB, JSON.stringify(updateContacts, null, 2), 'utf-8');
+         console.log(`${number} new contacts have been added.`);
     }
     catch (error) {
         console.error('Error handling db.json:', error);
@@ -19,5 +21,6 @@ const generateContacts = async (number) => {
 };
 
 generateContacts(5);
-generateContacts(3);
+
+
 

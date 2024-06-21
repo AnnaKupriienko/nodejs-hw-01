@@ -1,1 +1,51 @@
-[]
+[
+  {
+    "id": "dbe04651-a398-4f16-8c58-bb83b68c0664",
+    "name": "Ronald Walker",
+    "phone": "(947) 731-9693 x4337",
+    "email": "Carissa_Wintheiser-Torp@yahoo.com",
+    "job": "Forward Integration Executive"
+  },
+  {
+    "id": "bcaf166d-41d7-49e3-9d25-0ff1846e345f",
+    "name": "Mrs. Wilma Schimmel",
+    "phone": "853-937-9749 x1216",
+    "email": "Joannie.DuBuque@yahoo.com",
+    "job": "District Branding Producer"
+  },
+  {
+    "id": "d06490c9-2246-424c-994a-4e3fd63cbc23",
+    "name": "Neil O'Keefe",
+    "phone": "857.862.8814 x0539",
+    "email": "Lily.Kulas58@yahoo.com",
+    "job": "Chief Configuration Administrator"
+  },
+  {
+    "id": "8221dc09-a3b3-43fd-8484-ac757b984d4e",
+    "name": "Rick Gislason",
+    "phone": "(831) 611-5321",
+    "email": "Quinn.Lesch-Frami33@gmail.com",
+    "job": "Direct Tactics Associate"
+  },
+  {
+    "id": "30bc04f7-9428-4e6d-b7d5-00391fd40cb3",
+    "name": "Arnold Dooley",
+    "phone": "284.377.8955",
+    "email": "Darrick91@yahoo.com",
+    "job": "Legacy Communications Officer"
+  },
+  {
+    "id": "9c7c2cff-4115-43d9-82c3-46070e068e2b",
+    "name": "Ronnie Haley",
+    "phone": "1-618-884-7256 x27840",
+    "email": "Karlie35@yahoo.com",
+    "job": "Forward Implementation Associate"
+  },
+  {
+    "id": "c6681f25-ba4f-44df-a48e-ab616dc741dd",
+    "name": "Terry Bernhard",
+    "phone": "471.207.9055 x825",
+    "email": "Efren_Bergnaum@gmail.com",
+    "job": "Legacy Tactics Officer"
+  }
+]
